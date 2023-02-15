@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  api:
+    build: .
+    container_name: redux_starter_container
+    ports:
+      - '9000:9000'
+    volumes:
+      - .:/app
